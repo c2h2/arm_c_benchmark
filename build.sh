@@ -8,5 +8,6 @@ gcc -o arm_c_benchmark benchmark.c
 
 #cross complie
 
-$CROSS_CC -o arm_c_benchmark_arm benchmark.c
+$CROSS_CC -static -march=armv7 -o arm_c_benchmark_armv7 benchmark.c
+$CROSS_CC -static -o arm_c_benchmark_arm_generic benchmark.c
 
