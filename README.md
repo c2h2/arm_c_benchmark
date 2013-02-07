@@ -1,12 +1,14 @@
 arm_c_benchmark
 ===============
-This simple benchmark tests single core performance of CPU and RAM
+This simple benchmark tests single core performance of CPU and RAM. 
+
+You can also use different compiler to build this to in order to explore diff between compilers.
 
 
 Results
 =======
 
-4.2GHz Core-i5 3570K DDR31600 VM 
+4.2GHz Core-i5 3570K DDR3 1600 VM 
 ---------------------------------
     BENCHMARK: 0| malloc and free in Ktimes/sec  : 34141 .
     BENCHMARK: 1| memcpy of 256KB data in MB/s   : 18053 .
@@ -29,3 +31,10 @@ Results
     BENCHMARK: 1| memcpy of 256KB data in MB/s   : 12597 .
     BENCHMARK: 2| int calculation in   Kloops/sec: 23383 .
     BENCHMARK: 3| float calculation in Kloops/sec: 32948 .
+
+720MHz Ti Coretex-A8 AM3359 DDR3 606 (native compiled)
+------------------------------------------------------
+    BENCHMARK: 0| malloc and free in Ktimes/sec  : 50 .
+    BENCHMARK: 1| memcpy of 256KB data in MB/s   : 231 .
+    BENCHMARK: 2| int calculation in   Kloops/sec: 1276 .
+    BENCHMARK: 3| float calculation in Kloops/sec: 1910 .
