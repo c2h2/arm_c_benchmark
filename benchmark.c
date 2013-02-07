@@ -2,6 +2,7 @@
 #include <sys/time.h>
 #include <stdlib.h>
 
+#define K10   1000*10
 #define K100  1000*100
 #define M1    1000*1000
 #define M10   1000*1000*10
@@ -49,7 +50,7 @@ float bench_memcpy(){
   memset(d, 0xAA, size);
   
   clk_start(); 
-  for(i=0; i<K100; i++){
+  for(i=0; i<K10; i++){
     memcpy(a, c, size);
     memcpy(b, d, size);
     memcpy(b, c, size);
@@ -72,7 +73,7 @@ float bench_int(){
   a=0; b=10; c=123; d=2313; e=-123; f=233684; g=-1231235,z=123;
 
   clk_start();
-  for(i=0; i<M500; i++){
+  for(i=0; i<M100; i++){
     a=b+c+d+e+f+g;
     c=a*b-c*e-f*g;
     d=a/z+b/z+c/z+d/z+e/z+f/z+g/z;
@@ -97,7 +98,7 @@ float bench_float(){
   z=4.123;
   
   clk_start();
-  for(i=0; i<M500; i++){
+  for(i=0; i<M100; i++){
     a=a+b; b=a-c; c=a-b; d=d+d;
     a=d*a; b=a/c; c=b*a; d=c/a;
     d=a+b-c+d-z+z;
@@ -116,7 +117,7 @@ float bench_malloc(){
   float speed;
   
   clk_start();
-  for(i=0; i<M100; i++){
+  for(i=0; i<M10; i++){
     dummy = (void*)malloc(1024*1024);
     free(dummy);
   }
