@@ -43,3 +43,17 @@ Results
     BENCHMARK: 2| int calculation in   Kloops/sec: 1276 .
     BENCHMARK: 3| float calculation in Kloops/sec: 1910 .
     
+720MHz Ti Beaglebone DDR2 400 (native compiled)
+------------------------------------------------------
+    BENCHMARK: 0| malloc and free in Ktimes/sec  : 51 .
+    BENCHMARK: 1| memcpy of 256KB data in MB/s   : 200 .
+    BENCHMARK: 2| int calculation in   Kloops/sec: 1272 .
+    BENCHMARK: 3| float calculation in Kloops/sec: 1882 .
+
+720MHz Ti Coretex-A8 AM3359 Aria Board DDR2 400 (native compiled)
+-----------------------------------------------------------------
+    BENCHMARK: 0| malloc and free in Ktimes/sec  : 60 .
+    BENCHMARK: 1| memcpy of 256KB data in MB/s   : 230 .
+    BENCHMARK: 2| int calculation in   Kloops/sec: 1587 .
+    BENCHMARK: 3| float calculation in Kloops/sec: 2328 .
+
