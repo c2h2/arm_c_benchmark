@@ -56,4 +56,11 @@ Results
     BENCHMARK: 1| memcpy of 256KB data in MB/s   : 230 .
     BENCHMARK: 2| int calculation in   Kloops/sec: 1587 .
     BENCHMARK: 3| float calculation in Kloops/sec: 2328 .
+    
+1GHz Beaglebone Black Coretex-A8 AM3359 DDR3 (native angstrom os)
+-----------------------------------------------------------------
+    BENCHMARK: 0| malloc and free in Ktimes/sec  : 36 .
+    BENCHMARK: 1| memcpy of 256KB data in MB/s   : 251 .
+    BENCHMARK: 2| int calculation in   Kloops/sec: 1760 .
+    BENCHMARK: 3| float calculation in Kloops/sec: 2572 .
 
