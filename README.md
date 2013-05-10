@@ -64,3 +64,9 @@ Results
     BENCHMARK: 2| int calculation in   Kloops/sec: 1760 .
     BENCHMARK: 3| float calculation in Kloops/sec: 2572 .
 
+1.7GHz Odroid-U2 Enyox 4412 (android os)
+----------------------------------------
+    BENCHMARK: 0| malloc and free in Ktimes/sec  : 90 .
+    BENCHMARK: 1| memcpy of 256KB data in MB/s   : 2663 .
+    BENCHMARK: 2| int calculation in   Kloops/sec: 2505 .
+    BENCHMARK: 3| float calculation in Kloops/sec: 12181 .
