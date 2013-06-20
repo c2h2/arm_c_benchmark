@@ -117,7 +117,7 @@ float bench_malloc(){
   float speed;
   
   clk_start();
-  for(i=0; i<M10; i++){
+  for(i=0; i<M1; i++){
     dummy = (void*)malloc(1024*1024);
     free(dummy);
   }
