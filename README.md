@@ -71,4 +71,10 @@ Results
     BENCHMARK: 2| int calculation in   Kloops/sec: 1467 .
     BENCHMARK: 3| float calculation in Kloops/sec: 7135 .
 
+1.33GHz Marvell MV78460 ubuntu 14.04
+---------------------------------------------------------------------------------
+    BENCHMARK: 0| malloc and free in Ktimes/sec  : 66 .
+    BENCHMARK: 1| memcpy of 256KB data in MB/s   : 2516 .
+    BENCHMARK: 2| int calculation in   Kloops/sec: 1627 .
+    BENCHMARK: 3| float calculation in Kloops/sec: 11096 .
 
