@@ -77,4 +77,11 @@ Results
     BENCHMARK: 1| memcpy of 256KB data in MB/s   : 2516 .
     BENCHMARK: 2| int calculation in   Kloops/sec: 1627 .
     BENCHMARK: 3| float calculation in Kloops/sec: 11096 .
+    
+NXP S32V AARCH64 
+---------------------------------------------------------------------------------
+    BENCHMARK: 0| malloc and free in Ktimes/sec  : 68 .
+    BENCHMARK: 1| memcpy of 256KB data in MB/s   : 1404 .
+    BENCHMARK: 2| int calculation in   Kloops/sec: 1796 .
+    BENCHMARK: 3| float calculation in Kloops/sec: 8616 .
 
