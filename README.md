@@ -85,3 +85,9 @@ NXP S32V AARCH64
     BENCHMARK: 2| int calculation in   Kloops/sec: 1796 .
     BENCHMARK: 3| float calculation in Kloops/sec: 8616 .
 
+Rockchip RK3308 (Cortex-A35 1.3GHz) 16bit 256MB DDR3 
+---------------------------------------------------------------------------------
+    BENCHMARK: 0| malloc and free in Ktimes/sec  : 60 .
+    BENCHMARK: 1| memcpy of 256KB data in MB/s   : 758 .
+    BENCHMARK: 2| int calculation in   Kloops/sec: 1605 .
+    BENCHMARK: 3| float calculation in Kloops/sec: 10913 .
