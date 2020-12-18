@@ -99,3 +99,9 @@ Rockchip RK3308 (Cortex-A35 1.3GHz) 16bit 256MB DDR3
     BENCHMARK: 2| int calculation in   Kloops/sec: 6618 .
     BENCHMARK: 3| float calculation in Kloops/sec: 6875 .
 
+1.2GHz Ariaboard Renesas RZ/G2E Dual Core Cortex-A53 DDR3L 2GB (32bit, AARCH64 bin)
+---------------------------------------------------------------------------------
+    BENCHMARK: 0| malloc and free in Ktimes/sec  : 3787 .
+    BENCHMARK: 1| memcpy of 256KB data in MB/s   : 832 .
+    BENCHMARK: 2| int calculation in   Kloops/sec: 9904 .
+    BENCHMARK: 3| float calculation in Kloops/sec: 10303 .
